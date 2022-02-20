@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# coding: utf-8
+# coding: shift-jis
 
 # In[1]:
 
@@ -122,7 +122,7 @@ print(df)
 # In[86]:
 
 
-df.to_csv(f'{keyword}_{keyword_area}.csv', index=False, encoding='utf-8')
+df.to_csv(f'{keyword}_{keyword_area}.csv', index=False, encoding='shift-jis')
 
 
 # In[87]:
